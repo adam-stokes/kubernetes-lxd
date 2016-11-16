@@ -9,11 +9,11 @@ description: ""
 devices:
   aadisable:
     path: /sys/module/nf_conntrack/parameters/hashsize
-    source: /sys/module/nf_conntrack/parameters/hashsize
+    source: /dev/null
     type: disk
   aadisable1:
     path: /sys/module/apparmor/parameters/enabled
-    source: /sys/module/apparmor/parameters/enabled
+    source: /dev/null
     type: disk
   eth0:
     mtu: "9000"
